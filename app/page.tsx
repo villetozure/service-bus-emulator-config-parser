@@ -34,11 +34,11 @@ const App = () => {
       <h1 className="text-4xl font-bold text-gray-900 mb-4">
         Service Bus Emulator Config Generator (beta version)
       </h1>
-      <p className=" max-w-5xl text-lg text-gray-700 mb-6">
+      <p className="max-w-5xl text-lg text-gray-700 mb-6">
         Export your Service Bus entities using Service Bus Explorer and save the
         file. Copy the contents of the saved XML file and paste it into the left
-        box. Click "Transform" to generate a JSON configuration file that can be
-        used to set up Service Bus emulator queues and topics.
+        box. Click &quot;Transform&quot; to generate a JSON configuration file
+        that can be used to set up Service Bus emulator queues and topics.
       </p>
       <div className="w-full max-w-7xl grid grid-cols-2 gap-6">
         {/* XML Input Section */}
