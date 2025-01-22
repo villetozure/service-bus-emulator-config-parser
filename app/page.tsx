@@ -32,11 +32,13 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-4xl font-bold text-gray-900 mb-4">
-        Service Bus Config Transformer
+        Service Bus Config Transformer (beta version)
       </h1>
-      <p className="text-lg text-gray-700 mb-6">
-        Paste your XML configuration on the left to transform it into JSON for
-        use with the Service Bus emulator. The result will appear on the right.
+      <p className=" max-w-5xl text-lg text-gray-700 mb-6">
+        Export your Service Bus entities using Service Bus Explorer and save the
+        file. Copy the contents of the saved XML file and paste it into the left
+        box. Click "Transform" to generate a JSON configuration file that can be
+        used to set up Service Bus emulator queues and topics.
       </p>
       <div className="w-full max-w-7xl grid grid-cols-2 gap-6">
         {/* XML Input Section */}
@@ -88,6 +90,10 @@ const App = () => {
       >
         Transform
       </button>
+      <p className="text-black mt-6">
+        Disclaimer: This tool is for development purposes and my own personal
+        use only. Use it at your own risk.
+      </p>
     </div>
   );
 };
