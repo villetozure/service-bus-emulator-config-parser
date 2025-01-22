@@ -86,7 +86,7 @@ const App = () => {
         onClick={handleTransform}
         className="mt-4 px-8 py-3 bg-blue-700 text-white text-lg rounded-lg hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
       >
-        Transform to JSON
+        Transform
       </button>
     </div>
   );
