@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-4xl font-bold text-gray-900 mb-4">
-        Service Bus Emulator Config Generator (beta version)
+        Service Bus Emulator Config Generator
       </h1>
       <p className="max-w-5xl text-lg text-gray-700 mb-6">
         Export your Service Bus entities using Service Bus Explorer and save the
